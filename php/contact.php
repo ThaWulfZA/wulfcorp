@@ -10,7 +10,7 @@
  */
  
  
-$mailTo     = 'md.khandakarrafi@gmail.com';
+$mailTo     = 'thabiso.inama@gmail.com';
 
 /**
  * Set the message that will be shown on success
