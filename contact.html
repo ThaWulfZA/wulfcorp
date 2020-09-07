@@ -112,9 +112,9 @@
 						<!-- Heading -->
 						<div class="big-text" data-uk-scrollspy="{cls:'uk-animation-fade', delay:20}">						
 							<!-- Title -->
-							<h2 class="white t-left f-large ultrabold uppercase">Contact.</h2>							
+							<h2 class="white t-left f-large ultrabold uppercase rotate">Contact.</h2>							
 							<!-- Description -->
-							<h3 class="white t-left f-medium normal uppercase no-margin">Send us an idea.</h3>							
+							<h3 class="white t-left f-medium normal uppercase no-margin">Send us a question.</h3>							
 						</div>
 						<!-- End Heading -->
 					</div>
@@ -309,6 +309,13 @@
 				<script src="js/jquery.simple-text-rotator.min.js"></script>
 				<!-- Contact -->
 				<script src="js/contact.js"></script>
+				<script>				
+					$(".rotate").textrotator({
+						  animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+						  separator: ",",
+						  speed: 1600 // How many milliseconds until the next word show.
+					});					
+				</script>
 		<!-- End JavaSript Files -->
 	</body>
 	<!-- End Body -->

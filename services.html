@@ -112,9 +112,9 @@
 						<!-- Heading -->
 						<div class="big-text" data-uk-scrollspy="{cls:'uk-animation-fade', delay:20}">						
 							<!-- Title -->
-							<h2 class="white t-left f-large ultrabold uppercase">Services.</h2>							
+							<h2 class="white t-left f-large ultrabold uppercase rotate">Services.</h2>							
 							<!-- Description -->
-							<h3 class="white t-left f-medium normal uppercase no-margin">We know our craft well.</h3>							
+							<h3 class="white t-left f-medium normal uppercase no-margin">We bring your ideas to life.</h3>							
 						</div>
 						<!-- End Heading -->
 					</div>
@@ -132,13 +132,14 @@
 								<!-- Service -->
 									<!-- Icon -->
 									<span>
-										<i class="icon ion-social-wordpress-outline"></i>
+										<i class="fab fa-wordpress-simple"></i>
 										<i class="fab fa-drupal"></i>
 										<i class="fab fa-html5"></i>
 										<i class="fab fa-css3-alt"></i>
 										<i class="fab fa-js-square"></i>
 										<i class="fab fa-php"></i>
 										<i class="fab fa-github"></i>
+										<i class="fas fa-cart-plus"></i>
 									</span>
 									<!-- Title -->
 									<h2 class="f-semi-expanded ultrabold uppercase">Web Development</h2>
@@ -148,26 +149,28 @@
 							</div>
 							<!-- End Column -->
 							<!-- Column -->
-							<div class="service col-md-4 col-xs-12 t-left" data-uk-scrollspy="{cls:'uk-animation-fade', delay:40}">
-								<!-- Service -->
-									<!-- Icon -->
-									<i class="icon ion-android-bulb"></i>
-									<!-- Title -->
-									<h2 class="f-semi-expanded ultrabold uppercase">Idea</h2>
-									<!-- Service Desp -->
-									<p class="gray2 f-normal normal">Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.</p>
-								<!-- End Service -->
+							<div class="service no-padding-bottom col-md-4 col-xs-12 t-left" data-uk-scrollspy="{cls:'uk-animation-fade', delay:80}">
+								<!-- Icon -->
+								<span style="text-align: center;">
+									<i class="fab fa-android"></i>
+									<i class="fab fa-apple"></i>
+								</span>								
+								<!-- Title -->
+								<h2 class="f-semi-expanded ultrabold uppercase">App Development</h2>
+								<!-- Service Desp -->
+								<p class="gray2 f-normal normal">Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.</p>
 							</div>
 							<!-- End Column -->
 							<!-- Column -->
 							<div class="service col-md-4 col-xs-12 t-left" data-uk-scrollspy="{cls:'uk-animation-fade', delay:60}">
-								<!-- Service -->
-									<!-- Icon -->
-									<i class="icon ion-social-android-outline"></i>
-									<!-- Title -->
-									<h2 class="f-semi-expanded ultrabold uppercase">Android app</h2>
-									<!-- Service Desp -->
-									<p class="gray2 f-normal normal">Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.</p>
+								<i class="fas fa-server"></i>
+								<i class="fas fa-ethernet"></i>
+								<i class="fas fa-wifi"></i>
+								<i class="fas fa-spin fa-network-wired"></i>
+								<!-- Title -->
+								<h2 class="f-semi-expanded ultrabold uppercase">Network & Infrastructure </h2>
+								<!-- Service Desp -->
+								<p class="gray2 f-normal normal">Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.</p>
 								<!-- End Service -->
 							</div>
 							<!-- End Column -->
@@ -345,7 +348,14 @@
 				<!-- Text Rotator -->
 				<script src="js/jquery.simple-text-rotator.min.js"></script>				
 				<!-- Contact -->
-				<script src="js/contact.js"></script>				
+				<script src="js/contact.js"></script>
+				<script>				
+					$(".rotate").textrotator({
+						  animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+						  separator: ",",
+						  speed: 1600 // How many milliseconds until the next word show.
+					});					
+				</script>			
 		<!-- End JavaSript Files -->
 	</body>
 	<!-- End Body -->	

@@ -111,26 +111,16 @@
 					<div class="head">
 						
 						<!-- Section Content -->
-						<div class="section-content">
-							
+						<div class="section-content t-center">							
 							<!-- Headers -->
-							<div class="big-text-full home-5">
-								
+							<div class="big-text">
 								<!-- Title -->
-								<h2 class="t-center f-big uppercase dark"><span class="bold">WulfCorp.</span> works like magic.</h2>
-								<h2 class="t-center f-medium ultrabold uppercase"><span class="white dark-bg">A whole new breed.</span></h2>
-								<h2 class="t-center f-medium ultrabold uppercase"><span class="white dark-bg">Locally Served</span></h2>
-	
+								<h3 class="t-left f-normal ultrabold uppercase dark">Mot is a creative agency from new york.</h3>								
+								<h2 class="t-left f-big ultrabold uppercase white"><span class="white dark-bg">We are </span><span class="rotate white">Workaholic, Organized, Minimal, Trendy</span></h2>	
 								<!-- Separator -->
-								<div class="separator-center"></div>
-								<!-- End Separator -->
-	
-								<!-- Description -->
-								<h3 class="t-center f-normal normal dark">We know the value of good design.</h3>
-	
+								<div class="separator-small"></div>
 								<!-- Button -->
-								<a class="button margin-auto"><span class="gray1">know more</span></a>
-	
+								<h3 class="t-left f-normal ultrabold uppercase no-margin"><a href="#" class="button"><span>Work with us.</span></a></h3>	
 							</div>
 							<!-- End Headers -->
 	
@@ -519,7 +509,7 @@
 						<!-- End Separator -->
 	
 						<!-- Description -->
-						<h3 class="f-normal normal uppercase white">Or watch a video to know we're perfect</h3>
+						<h3 class="f-normal normal uppercase white">What are you waiting for?</h3>
 						
 						<!-- Button -->
 						<a class="button margin-auto white" href="contact.html">Hire us</a>
@@ -634,7 +624,14 @@
 				<!-- Text Rotator -->
 				<script src="js/jquery.simple-text-rotator.min.js"></script>
 				<!-- Contact -->
-				<script src="js/contact.js"></script> 
+				<script src="js/contact.js"></script>
+				<script>				
+					$(".rotate").textrotator({
+						  animation: "flip", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+						  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+						  speed: 1600 // How many milliseconds until the next word show.
+					});					
+				</script>
 		<!-- End JavaSript Files -->
 	</body>
 	<!-- End Body -->
