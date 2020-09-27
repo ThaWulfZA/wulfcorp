@@ -44,8 +44,8 @@ $errorMsg   = 'Hm.. seems there is a problem, sorry!';
     
     // redirect to success page 
 	if ($success){
-	  print "<meta http-equiv=\"refresh\" content=\"0;URL=../message-success.html\">";
+	  print "<meta http-equiv=\"refresh\" content=\"0;URL=message-success.html\">";
 	}
 	else{
-	  print "<meta http-equiv=\"refresh\" content=\"0;URL=../message-failed.html\">";
+	  print "<meta http-equiv=\"refresh\" content=\"0;URL=message-failed.html\">";
 	}
