@@ -1,4 +1,19 @@
 @charset "utf-8";
+
+
+/*
+
+Name: style.css
+Author: TemplateMilk
+Website: https://www.templatemilk.com
+
+ */
+
+
+
+
+
+
 /*====================================================
 
 
@@ -174,7 +189,7 @@
 	}
 	
 	a{
-		color: #191919;
+		color: #000000;
 		text-decoration:none;
 		outline:none;
 
@@ -302,7 +317,7 @@
 	}
 
 	.button:hover{
-		color: #191919;
+		color: #000000;
 		background: #fff;
 		border: 1px solid #fff;
 	}
@@ -548,7 +563,7 @@
 
 
 	.dark{
-		color: #191919;
+		color: #000000;
 	}
 
 	.white{
@@ -841,7 +856,7 @@
 	}
 
 	.dark-bg{
-		background-color: #191919 !important;
+		background-color: #000000 !important;
 	}
 	
 	.colored-bg{
@@ -938,41 +953,64 @@
 		-o-background-size: cover;
 		z-index: 1;
 	}
+	
+	
+
+	
+	
+	
+	
+	
 /*======================
+
 	05. Navigations
+
 ========================*/
+
+
+
+
 /* General
 -------------------------*/	
+	
+
 	.navigation{
-		background: #191919;
-		padding: 0px 2.5% 0px 2%;
+		background: #000000;
+		padding: 0px 5% 0px 10%;
 		z-index: 999;
 		-webkit-box-shadow: 0px 4px 10px -3px rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 4px 10px -3px rgba(0,0,0,0.75);
 		box-shadow: 0px 4px 10px -3px rgba(0,0,0,0.75);
 		font-size: 13px;
 		opacity: 0.94;
-	}	
+	}
+	
 	.navbar{
 		margin-bottom: 0px;
-	}	
+	}
+	
 	.navbar-brand img{
 		width: 60px;
 		position: relative;
 		bottom: 20px;
-	}	
+	}
+	
 	.nav{
 		float: right;
-	}	
+	}
+	
+	
 	.nav li a{
 		margin-right: 10px;
 		color: #777777;
-	}	
+	}
+	
 	.uk-subnav>*>* {
 		display: inline-block;
 		color: #444;
 		font-weight: 600;
-	}	
+	}
+	
 	.uk-subnav>*{
 		padding-left: 0px;
 		margin-top: 0px;
@@ -982,12 +1020,12 @@
 -------------------------*/	
 	
 	.navbar-default{
-		border-color: #191919;
+		border-color: #000000;
 	}
 	
 	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
 		color: #fff;
-		background-color: #191919;
+		background-color: #000000;
 	}
 	
 	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -1028,7 +1066,7 @@
 	}
 	
 	.navbar-toggle .icon-bar{
-		background: #191919;
+		background: #000000;
 	}
 	
 	.nav li a{
@@ -1042,7 +1080,7 @@
 	}
 	
 	.uk-subnav > .uk-active > * {
-    color: #191919;
+    color: #000000;
 	}
 	
 	
@@ -1052,7 +1090,7 @@
 -------------------------*/	
 
 	.dropdown-menu{
-		background: #191919;
+		background: #000000;
 	}
 	
 	.dropdown-menu li{
@@ -1652,7 +1690,7 @@
 	
 	.price-table .button:hover{
 		background: #fff;
-		color: #191919;
+		color: #000000;
 	}
 	
 	
@@ -1771,8 +1809,8 @@
 	
 	
 	.tags li:hover{
-		background: #191919;
-		border: 1px solid #191919;
+		background: #000000;
+		border: 1px solid #000000;
 	}
 	
 	
@@ -1926,7 +1964,7 @@
 		background: transparent;
 		width: 100%;
 		border: none;
-		color: #191919;
+		color: #000000;
 		float: left;
 		border-bottom: 1px solid #ccc;
 		font-size: 13px;
@@ -2036,8 +2074,8 @@
 	}
 	
 	.footer-logo img{
-		width: 60px;
-		border-radius: 100%;
+		width: 80px;
+		border-radius: 10%;
 	}
 	
 	.footer-social li{
@@ -2228,7 +2266,7 @@
 		}
 		
 		.navbar-default .navbar-collapse, .navbar-default .navbar-form{
-			background: #191919;
+			background: #000000;
 			border-color: #000;
 		}
 		
@@ -2242,12 +2280,12 @@
 		}
 		
 		.navbar-default .navbar-toggle{
-			border: 2px solid #191919;
-			color: #191919;
+			border: 2px solid #000000;
+			color: #000000;
 		}
 		
 		.navbar-toggle .icon-bar{
-			color: #191919;
+			color: #000000;
 			
 			
 		}
@@ -2284,7 +2322,7 @@
 		}
 		
 		.navigation{
-			background: #191919;
+			background: #000000;
 			z-index: 99999999;
 			padding: 10px 2% 10px 10%;
 			-webkit-box-shadow: 0px 4px 10px -3px rgba(0,0,0,0.75);
@@ -2479,7 +2517,7 @@
 	}
 	
 	.preview .button:hover{
-		color: #191919;
+		color: #000000;
 	}
 	
 	.preview .work img{
@@ -2524,8 +2562,8 @@
 	}
 	
 	.preview-footer .footer-logo img{
-		width: 60px;
-		border-radius: 100%;
+		width: 80px;
+		border-radius: 10%;
 		margin-bottom: 25px;
 	}
 	
