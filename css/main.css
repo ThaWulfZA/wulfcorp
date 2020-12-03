@@ -34,7 +34,7 @@ p {
 a,
 a:hover,
 a:focus {
-	color: #ffe600;
+	color: #DA890B;
 }
 .row {
 	margin-bottom: 50px;
@@ -83,7 +83,7 @@ a:focus {
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus,
 .navbar-nav > li.active > a {
-	color: #ffe600;
+	color: #DA890B;
 	background: transparent;
 }
 
@@ -98,7 +98,7 @@ a:focus {
 	position: relative;
 	width: 100%;
 	position: relative;
-	background-size: auto !100%;
+	background-size: 100% auto;
 }
 .slide {
 	position: absolute;
@@ -127,8 +127,8 @@ a:focus {
 
 .btn-primary {
 	color: #000;
-	background: #ffe600;
-	border: 1px solid #ffe600;
+	background: #DA890B;
+	border: 1px solid #DA890B;
 	display: inline-block;
 	margin: 10px;
 	position: relative;
@@ -139,7 +139,7 @@ a:focus {
 }
 
 .btn-primary:hover {
-	background: #ffe600;
+	background: #DA890B;
 	color: #000;
 	border: none;
 }
@@ -147,7 +147,7 @@ a:focus {
 .btn-primary:before {
 	content: '';
 	position: absolute;
-	border: #ffe600 solid 4px;
+	border: #DA890B solid 4px;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -165,7 +165,7 @@ a:focus {
 	left: -8px;
 }
 .go-to {
-	background: #ffe600;
+	background: #DA890B;
 	position: absolute;
 	left: 50%;
 	margin-left: -30px;
@@ -185,7 +185,7 @@ a:focus {
 }
 .navbar-nav > li > a:hover {
 	background-color: transparent;
-	color: #ffe600;
+	color: #DA890B;
 }
 .gray {
 	background: #FBFBFB;
@@ -252,7 +252,7 @@ a:focus {
 	line-height: 42px;
 	text-align: center;
 	vertical-align: middle;
-	color: #ffe600;
+	color: #DA890B;
 }
 .navbar-nav > li:first-child > a:before,
 .nav-pills > li:first-child > a:before {
@@ -264,11 +264,11 @@ a:focus {
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus {
-	color: #ffe600;
+	color: #DA890B;
 	background: transparent;
 }
 .square-l {
-	background: #ffe600;
+	background: #DA890B;
 	color: #fff;
 	vertical-align: middle;
 }
@@ -283,7 +283,7 @@ a:focus {
 	color: #fff;
 }
 .process-item .fa {
-	color: #FFCF03;
+	color: #DA890B;
 }
 
 .team{
@@ -344,7 +344,7 @@ a:focus {
 }
 
 .team-extended h3{
-	color: #ffe600;
+	color: #DA890B;
 }
 
 .team-extended p{
@@ -382,14 +382,14 @@ cursor: pointer;
 	transform: rotate(-45deg);
 }
 .team-extended .social:hover{
-	color: #ffe600;
-	border-color: #ffe600;
+	color: #DA890B;
+	border-color: #DA890B;
 }
  
 .team-member .name {
 	display: block;
 	text-transform: uppercase;
-	color: #ffe600;
+	color: #DA890B;
 	font-size: 20px;
 	margin-bottom: 10px;
 }
@@ -405,7 +405,7 @@ cursor: pointer;
 }
 .branded-section {
 	width: 100%;
-  	background-position 0px 0px;
+  	background-position: 0px 0px;
   	background-repeat:  no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -463,7 +463,7 @@ background-attachment: fixed;
 }
 .chart,
 .chart h3 {
-	color: #ffe600;
+	color: #DA890B;
 }
 .percent {
 	display: block;
@@ -479,7 +479,7 @@ background-attachment: fixed;
 }
 .number-item {
 	text-align: center;
-	border: 1px solid #FFE600;
+	border: 1px solid #DA890B;
 	padding: 20px;
 }
 .number-item .number {
@@ -495,12 +495,12 @@ background-attachment: fixed;
 	font-size: 20px;
 }
 .number-item .text {
-	color: #FFE600;
+	color: #DA890B;
 	font-size: 16px;
 	text-transform: uppercase;
 }
 .circle {
-	background: #FFCF03;
+	background: #DA890B;
 	display: inline-block;
 	width: 50px;
 	height: 50px;
@@ -547,7 +547,7 @@ background-attachment: fixed;
 .divider > span {
 	display: inline-block;
 	width: 170px;
-	background: #FFCF03;
+	background: #DA890B;
 	height: 2px;
 }
 .adress-element {
@@ -555,7 +555,7 @@ background-attachment: fixed;
 	margin-bottom: 50px;
 }
 .adress-element .fa {
-	color: #FFCF03;
+	color: #DA890B;
 }
 .lb_wrap {
 	width: 100%;
@@ -594,7 +594,7 @@ Images
 .text-slider-wrapper .bx-wrapper .bx-next {
 	right: 10px;
 }
-.text-slider-wrapper .bx-wrapper .bx-prev:hover {} .text-slider-wrapper .bx-wrapper .bx-next:hover {} .text-slider-wrapper .bx-wrapper .bx-controls-direction a {
+.text-slider-wrapper .bx-wrapper .bx-prev:hover .text-slider-wrapper .bx-wrapper .bx-next:hover .text-slider-wrapper .bx-wrapper .bx-controls-direction a {
 	position: absolute;
 	opacity: 0;
 	top: 50%;
@@ -622,7 +622,7 @@ Images
 
 .error-code{
 	font-size: 150px;
-	color: #ffe600;
+	color: #DA890B;
 	margin: 0;
 
 }
@@ -1021,7 +1021,7 @@ Forms
 }
 .client-nav > li > a {
 	color: #fff;
-	background: #ffe600;
+	background: #DA890B;
 	color: #fff;
 	vertical-align: middle;
 	width: 30px;
@@ -1036,7 +1036,7 @@ Forms
 ********************************************/
 
 .primary-color {
-	color: #FFE600;
+	color: #DA890B;
 }
 /********************************************
 				CONTACT FORM
@@ -1056,7 +1056,7 @@ Forms
 	border-width: 2px;
 }
 .contact-form .form-control:focus {
-	border: 2px solid #FEE600;
+	border: 2px solid #DA890B;
 }
 .contact-form .form-control:focus {
 	background: rgba(255, 255, 255, 0.1);
@@ -1122,7 +1122,7 @@ footer .social-list li {
 }
 
 footer .to-top {
-	background: #FFCF03;
+	background: #DA890B;
 	width: 30px;
 	height: 30px;
 	display: block;
@@ -1295,7 +1295,7 @@ RESPONSIVE
 
 .loader{
 	display: block;
-	background: #ffe600;
+	background: #DA890B;
 	position:fixed; 
 	top:0; left:0; right:0; bottom:0;
 	width:100%; 
