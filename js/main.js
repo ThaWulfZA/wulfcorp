@@ -75,7 +75,7 @@ function inviewAnimation() {
 			animate: 2000,
 			lineWidth: 6,
 			lineCap: 'square',
-			barColor: '#DA890B',
+			barColor: '#ffe600',
 			trackColor: '#ffffff',
 			scaleColor: false
 		});
